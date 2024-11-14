@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Column</title>
+
+    <style>
+        
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        
+        .main{
+            width: 100%;
+            height: fit-content;
+            background-color: rgb(23, 63, 63);
+            display: flex;
+            
+        }
+
+        .box{
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 30%;
+            height: 200px;
+            margin: 20px;
+            box-shadow: 0px 0px 20px gray;
+            /* background-color: aqua; */
+            font-size: 40px;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .im1{
+            background-image: url(https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmFuZG9tfGVufDB8fDB8fHww);
+        }
+
+        .im2{
+            background-image: url(https://media.istockphoto.com/id/1474848131/photo/stack-of-papers-with-feasibility-study-and-folder.webp?a=1&b=1&s=612x612&w=0&k=20&c=nmQOs6FS5rmhnLchxjMDmU0z3MOZ9efcCZfpobW7u_Q=);
+        }
+
+        .im3{
+            background-image: url(https://media.istockphoto.com/id/1679733776/photo/closeup-image-of-judge-gavel-and-text-product-liability.webp?a=1&b=1&s=612x612&w=0&k=20&c=KXqN8IRwVW7k3Nexdwol2K9ZJPWakOjC8tkg3UR1g9E=);
+        }
+
+        .im4{
+            background-image: url(https://media.istockphoto.com/id/2125872569/photo/businessman-signing-a-legal-real-estate-contract-agreement-home-insurance.webp?a=1&b=1&s=612x612&w=0&k=20&c=jeT_yWSIcphgoW9LEAkkCv0bKTOro5jlK3LJxuXpdRw=);
+        }
+
+        .im5{
+            background-image: url(https://media.istockphoto.com/id/157180797/photo/car-accident-crash.webp?a=1&b=1&s=612x612&w=0&k=20&c=TEUh7HGlir6pWMcPJTiabcQnmCqjMcC0TJaLC3tgRPA=);
+        }
+
+        .im6{
+            background-image: url(https://images.unsplash.com/photo-1455849318743-b2233052fcff?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cmFuZG9tfGVufDB8fDB8fHww);
+        }
+
+        .im7{
+            background-image: url(https://images.unsplash.com/photo-1457369804613-52c61a468e7d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHJhbmRvbXxlbnwwfHwwfHx8MA%3D%3D);
+        }
+        
+        .im8{
+            background-image: url(https://media.istockphoto.com/id/1474848131/photo/stack-of-papers-with-feasibility-study-and-folder.webp?a=1&b=1&s=612x612&w=0&k=20&c=nmQOs6FS5rmhnLchxjMDmU0z3MOZ9efcCZfpobW7u_Q=);
+        }
+
+        .im9{
+            background-image: url(https://media.istockphoto.com/id/1477040247/photo/handshake-meeting-and-business-people-partnership-for-b2b-collaboration-onboarding-welcome-or.webp?a=1&b=1&s=612x612&w=0&k=20&c=Cu70GPjYG_e2vjM9IR2ljqfMXWa8BWFp9ad9wrXMeBw=);
+        }
+
+        .im10{
+            background-image: url(https://media.istockphoto.com/id/2155996192/photo/full-size-photo-of-pretty-girl-sit-floor-netbook-modern-clothes-isolated-on-white-color.jpg?s=612x612&w=0&k=20&c=_Lawk0yuipSEEghaZ9bL1D59-Ro9-k0sF0jLmBZ4l-8=);
+        }
+
+        .im11{
+            background-image: url(https://media.istockphoto.com/id/2004348812/photo/cutout-of-a-numbered-dart-board-isolated-over-white-background-denoting-aim-planning-business.jpg?s=612x612&w=0&k=20&c=A-uEdjOEOJToiq7FyzW1TX6Z0MkgAty66K_IXbSURbs=);
+        }
+
+        .im12{
+            background-image: url(https://media.istockphoto.com/id/2043352873/photo/get-ready-3d-isolated-on-white-background-3d-illustration-get-ready-message-3d.jpg?s=612x612&w=0&k=20&c=MAQqI4-VV1JsGFPQHsZ_RyzYbg5uqJWFat1vz2aI4p4=);
+        }
+
+        .im13{
+            background-image: url(https://media.istockphoto.com/id/636772794/photo/liability.jpg?s=612x612&w=0&k=20&c=djdD22AUcTfETe_VkBjueQhzZFFfM71nYaPKAdOpyAA=);
+        }
+
+        .im14{
+            background-image: url(https://media.istockphoto.com/id/1005853368/photo/chance-to-change-with-cubes.jpg?s=612x612&w=0&k=20&c=DCFuLP0sgefGNuJiTFeOUfjKVkhnsag4MeECnOCq7gA=);
+        }
+
+        .im15{
+            background-image: url(https://media.istockphoto.com/id/1053590828/photo/sky-diver-falls-with-flippers-and-a-mask.jpg?s=612x612&w=0&k=20&c=0S3rP31xS-NSZWAZ2lRf42xfPsn-svZiXFxbANVpmk0=);
+        }
+
+        .im16{
+            background-image: url(https://media.istockphoto.com/id/1218574261/photo/last-chance-message-on-blackboard.jpg?s=612x612&w=0&k=20&c=plkqR-VCxbvGRSnCa8FRqXSzLdHCHVwA3QsVr8pNhFQ=);
+        }
+
+       
+        .im17{
+            background-image: url(https://media.istockphoto.com/id/1077607004/photo/list-of-assets-vs-liabilities-in-the-note-pad.jpg?s=612x612&w=0&k=20&c=xZqpNRE2IiljDvboK_3G7FVXAz47kk3DXYMNBGH5TBM=);
+        }
+
+        .im18{
+            background-image: url(https://media.istockphoto.com/id/471741807/photo/yellow-opportunity-ahead-road-sign-with-sky.jpg?s=612x612&w=0&k=20&c=_vEW--vpHEEsL33C38yYP0Zn3ZzIzigRgo98KlIs2-A=);
+        }
+
+        .im19{
+            background-image: url(https://media.istockphoto.com/id/1356572026/photo/chocolate-sprinkle-falling-isolated-white-background-3d-illustration.jpg?s=612x612&w=0&k=20&c=WPEaGwjhtDYff5rpBCPBcRsff7SlRaN8s83SCC49rSE=);
+        }
+
+        .im20{
+            background-image: url(https://media.istockphoto.com/id/1327364098/photo/torn-paper-with-word-are-you-covered.jpg?s=612x612&w=0&k=20&c=ceonkCAPtJsW06Qs9cZ0ZoJVo1e2fbep_-vTul6dvNU=);
+        }
+
+        .im21{
+            background-image: url(https://media.istockphoto.com/id/1440049266/photo/golden-slot-machine-with-gold-coins-777-big-win-concept-casino-jackpot-3d-illustration.jpg?s=612x612&w=0&k=20&c=ssPDxypeWWTv6d71eep_2BstYRrOOayqHePDspbPjrA=);
+        }
+
+        
+
+
+
+       
+
+
+        @media (min-width: 1200px)   {
+            .main{
+                display: flex;
+                flex-wrap: wrap;
+                background-color: blanchedalmond;
+            }
+            .box{
+                width: 30%;
+            }
+        }
+
+
+        @media (min-width: 800px) and (max-width: 1200px)   {
+            .main{
+                display: flex;
+                flex-wrap: wrap;
+                background-color: azure;
+            }
+            .box{
+                width: 45%;
+                background-color: brown;
+            }
+        }
+
+
+
+        @media (max-width: 800px)    {
+            .main{
+                display: flex;
+                flex-wrap: wrap;
+                background-color: black;
+            }
+            .box{
+                width: 100%;
+                background-color: blueviolet;
+                box-shadow: 0px 0px 20px whitesmoke;
+            }
+        }
+       
+    </style>
+
+        
+
+       
+</head>
+<body>
+    
+    <div class="main">
+        <div class="box im1"></div>
+        <div class="box im2"></div>
+        <div class="box im3"></div>
+        <div class="box im4"></div>
+        <div class="box im5"></div>
+        <div class="box im6"></div>
+        <div class="box im7"></div>
+        <div class="box im8"></div>
+        <div class="box im9"></div>
+        <div class="box im10"></div>
+        <div class="box im11"></div>
+        <div class="box im12"></div>
+        <div class="box im13"></div>
+        <div class="box im14"></div>
+        <div class="box im15"></div>
+        <div class="box im16"></div>
+        <div class="box im17"></div>
+        <div class="box im18"></div>
+        <div class="box im19"></div>
+        <div class="box im20"></div>
+        <div class="box im21"></div>
+        
+    </div>
+</body>
+</html>
